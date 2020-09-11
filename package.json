@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@reflexjs/gatsby-theme-base": "^0.3.3",
+    "@reflexjs/gatsby-theme-post": "^0.6.7",
     "gatsby": "^2.22.11",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

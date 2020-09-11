@@ -1838,6 +1838,34 @@
     "@reflexjs/utils" "^0.2.1"
     gatsby-source-filesystem "^2.3.8"
 
+"@reflexjs/gatsby-theme-post@^0.6.7":
+  version "0.6.7"
+  resolved "https://registry.yarnpkg.com/@reflexjs/gatsby-theme-post/-/gatsby-theme-post-0.6.7.tgz#eb0daabb39f6a16ff47fc2107653454e6a4a1128"
+  integrity sha512-wMN7CPWl/USr7rtZhyU0BA0mKIFtFaLiQG/lxMqGHTJxP3Edpc15c1xLpXydJsZa00RtY2ZZ65ql3LFv4/uPkg==
+  dependencies:
+    "@reflexjs/components" "^0.3.1"
+    "@reflexjs/gatsby-helpers" "^0.6.0"
+    "@reflexjs/gatsby-plugin-image" "^0.3.2"
+    "@reflexjs/gatsby-theme-block" "^0.3.6"
+    "@reflexjs/gatsby-theme-core" "^0.5.3"
+    "@reflexjs/gatsby-theme-profile" "^0.4.7"
+    "@reflexjs/utils" "^0.2.1"
+    gatsby-awesome-pagination "^0.3.6"
+    gatsby-source-filesystem "^2.3.8"
+
+"@reflexjs/gatsby-theme-profile@^0.4.7":
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/@reflexjs/gatsby-theme-profile/-/gatsby-theme-profile-0.4.7.tgz#29577ab2c16b287c1b47e7fe3d01ccae28b21b3d"
+  integrity sha512-f/2tQRTLaxH518pOgWk6m9hn+SnHek6fIfqlqkPe11VcKSciUomdnBTW2TQODkbOVEiW/N+MNSarUY3HvxNRJw==
+  dependencies:
+    "@reflexjs/components" "^0.3.1"
+    "@reflexjs/gatsby-helpers" "^0.6.0"
+    "@reflexjs/gatsby-plugin-image" "^0.3.2"
+    "@reflexjs/gatsby-theme-core" "^0.5.3"
+    "@reflexjs/utils" "^0.2.1"
+    gatsby-image "^2.4.5"
+    gatsby-source-filesystem "^2.3.8"
+
 "@reflexjs/icons-feather@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@reflexjs/icons-feather/-/icons-feather-0.2.0.tgz#08e91c4daa1ae2ff24fe6e9f3edada19a7d8b904"
@@ -6589,6 +6617,13 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
+
+gatsby-awesome-pagination@^0.3.6:
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/gatsby-awesome-pagination/-/gatsby-awesome-pagination-0.3.6.tgz#e7e2d0af0cebd53a51957414e1e9749f2e0e2c02"
+  integrity sha512-gVt5tnDP8Va+Y02OrG8k/HocGx7NKTnvGGKFzz2E+ChHObBbac6PXeOEOUseFrCqO/zKLhF8JWTfWofGsy7oQA==
+  dependencies:
+    lodash "^4.17.15"
 
 gatsby-cli@^2.12.95:
   version "2.12.95"

@@ -1,0 +1,32 @@
+import { usePostTag } from "../../src/use-post-tag";
+
+export const PostsHeader = () => {
+  const tags = usePostTag();
+  if (!tags.length) return null;
+  return (
+    // Container with margin-top.
+    // Grid with 2 col on mobile, 4 on tablet and 8 on desktop.
+    // Button with white background, padding and hover background color.
+    <Container mt="8">
+      <Grid col="2|4|8" gap="2" p="4" rounded="md" bg="muted">
+        {tags.map((tag) => (
+          <ButtonLink
+            href={tag.slug}
+            key={tag.slug}
+            rounded="sm"
+            bg="background"
+            py="2"
+            rounded="lg"
+            hoverBg="primary"
+            hoverColor="text"
+          >
+            {tag.name}
+            <Span bg="muted" py="2" px="3" rounded="sm" ml="2" color="text">
+              {tag.count}
+            </Span>
+          </ButtonLink>
+        ))}
+      </Grid>
+    </Container>
+  );
+};
